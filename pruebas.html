@@ -3,22 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pruebas y Evaluación - Calidad de Software</title>
+  <title>Calidad de Software Educativa</title>  
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <header>
-    <h1>Pruebas y Evaluación de la Calidad de Software</h1>
-    <nav>
-      <a href="index.html">Inicio</a> |
-      <a href="normas.html">Normas</a> |
-      <a href="modelos.html">Modelos</a> |
-      <a href="estandares.html">Estándares</a> |
-      <a href="pruebas.html">Pruebas</a> |
-      <a href="manual.html">Manual</a> |
-      <a href="recomendaciones.html">Recomendaciones</a>
-    </nav>
+    <h1>Calidad de Software Educativa</h1>
   </header>
+
+  <nav>
+    <a href="index.html" >Inicio</a>
+    <a href="normas.html">Normas</a>
+    <a href="modelos.html">Modelos</a>
+    <a href="estandares.html">Estándares</a>
+    <a href="pruebas.html"class="activo">Pruebas</a>
+    <a href="manual.html">Manual</a>
+    <a href="funciones.html">Funciones</a>
+    <a href="recomendaciones.html">Recomendaciones</a>
+  </nav>
 
   <main>
     <h2>Evaluación de la Calidad en Sitios Educativos</h2>
@@ -54,10 +57,143 @@
     <h3>Captura de Resultados Lighthouse</h3>
     <img src="img/pruebas_lighthouse.png" alt="Resultados de Lighthouse - Udemy" style="max-width: 600px; border: 2px solid #ccc; border-radius: 8px;">
 
-    <h3>Conclusión de las pruebas</h3>
-    <p>Las métricas obtenidas reflejan que el sitio educativo Udemy presenta una excelente accesibilidad y un posicionamiento web óptimo, aunque puede mejorar su rendimiento y ciertas buenas prácticas técnicas.  
-    Este tipo de análisis permite comprender cómo aplicar métricas de calidad también en proyectos educativos propios, como el presente aplicativo web de <em>Calidad de Software</em>.</p>
-  </main>
+</p>
+
+    <hr>
+
+    <h2>Resultados de Pruebas Funcionales (Selenium IDE)</h2>
+    <p>
+      Se realizaron seis casos de prueba representativos de las funciones principales del sitio.
+    </p>
+
+    <div class="recuadro">
+      <table class="tabla-resultados">
+        <tr>
+          <th>Nº</th>
+          <th>Caso de Prueba</th>
+          <th>Resultado</th>
+          <th>Calificación (0–5)</th>
+          <th>Observación</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Navegación inicial</td>
+          <td>Éxito</td>
+          <td>5.0</td>
+          <td>Página carga correctamente y permite desplazamiento.</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Inicio de sesión</td>
+          <td>Parcial</td>
+          <td>3.5</td>
+          <td>Requiere validación real por correo.</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Búsqueda de cursos</td>
+          <td>Éxito</td>
+          <td>5.0</td>
+          <td>Muestra resultados adecuados.</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Navegación por categorías</td>
+          <td>Éxito parcial</td>
+          <td>4.0</td>
+          <td>Retrasos leves en carga dinámica.</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Filtrar resultados</td>
+          <td>Parcial</td>
+          <td>3.5</td>
+          <td>Error de espera por contenido dinámico.</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>Reproducir vista previa</td>
+          <td>Parcial</td>
+          <td>3.5</td>
+          <td>Requiere autenticación del usuario.</td>
+        </tr>
+      </table>
+    </div>
+
+    <p><strong>Promedio de pruebas funcionales:</strong> (5 + 3.5 + 5 + 4 + 3.5 + 3.5) / 6 = <strong>4.08 / 5</strong> ✅</p>
+
+    <h3>Evaluación Global del Software</h3>
+    <div class="recuadro">
+      <table class="tabla-resultados">
+        <tr>
+          <th>Tipo de Pruebas</th>
+          <th>Calificación Promedio</th>
+          <th>Ponderación</th>
+          <th>Resultado Final</th>
+        </tr>
+        <tr>
+          <td>No Funcionales (Lighthouse)</td>
+          <td>4.48</td>
+          <td>50 %</td>
+          <td>2.24</td>
+        </tr>
+        <tr>
+          <td>Funcionales (Selenium IDE)</td>
+          <td>4.08</td>
+          <td>50 %</td>
+          <td>2.04</td>
+        </tr>
+        <tr>
+          <td><strong>Calificación Total del Software</strong></td>
+          <td>—</td>
+          <td>—</td>
+          <td><strong>4.28 / 5.0</strong></td>
+        </tr>
+      </table>
+    </div>
+
+    <h3>Conclusión Cuantitativa</h3>
+    <p>
+      De acuerdo con las métricas aplicadas, la plataforma <strong>Udemy</strong> alcanza una calificación cuantitativa de 
+      <strong>4.28 sobre 5</strong>, lo que la ubica en un nivel alto de calidad de software.
+      El sistema presenta excelente desempeño en accesibilidad, buenas prácticas y SEO, 
+      mientras que las pruebas funcionales reflejan un comportamiento estable con leves incidencias 
+      relacionadas con tiempos de carga y autenticación segura.
+    </p>
+
+    <h3>Interpretación General (Escala Cualitativa)</h3>
+    <div class="recuadro">
+      <table class="tabla-resultados">
+        <tr>
+          <th>Rango</th>
+          <th>Nivel de Calidad</th>
+        </tr>
+        <tr><td>0.0 – 2.0</td><td>Deficiente</td></tr>
+        <tr><td>2.1 – 3.0</td><td>Aceptable</td></tr>
+        <tr><td>3.1 – 4.0</td><td>Bueno</td></tr>
+        <tr><td>4.1 – 5.0</td><td><strong>Excelente ✅</strong></td></tr>
+      </table>
+
+    <p class="resultado-final">
+      🔹 <strong>Resultado final:</strong>
+      <span style="color:#2e7d32;">4.28 → Nivel Excelente de Calidad de Software</span>
+    </p>
+
+    <!-- Conclusión dentro de un recuadro para mantener formato -->
+    <div class="recuadro">
+      <h3>Conclusión de las pruebas</h3>
+      <p>
+        Las métricas obtenidas reflejan que el sitio educativo <strong>Udemy</strong>
+        presenta una excelente accesibilidad y un posicionamiento web óptimo, aunque
+        puede mejorar su rendimiento y ciertas buenas prácticas técnicas. Este tipo
+        de análisis permite comprender cómo aplicar métricas de calidad también en
+        proyectos educativos propios, como el presente aplicativo web de
+        <em>Calidad de Software</em>.
+      </p>
+    </div>
+
+  </section> <!-- cierre de sección principal de pruebas -->
+</main>
 
   <footer>
     <p>Proyecto educativo - Desarrollado por Sandra Cano © 2025</p>

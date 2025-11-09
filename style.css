@@ -195,4 +195,15 @@ section.ciclo-vida {
     background-color: #146436;
 }
 
-/* Rebuild GitHub Pages */
+.seccion-pruebas h2, 
+.seccion-pruebas h3 {
+  color: #2e3a59;
+}
+
+.resultado-final {
+  font-size: 1.1em;
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
